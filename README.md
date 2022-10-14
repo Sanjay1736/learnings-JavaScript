@@ -1,2 +1,2 @@
 # learnings-JavaScript
-Learning about loops anin ja
+Learning about loops in js
