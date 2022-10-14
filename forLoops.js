@@ -75,3 +75,35 @@ console.log(
         return data;
     })
 )
+
+const namm ='hello Sanjay';
+
+// namm.split('').forEach((data)=>{
+//     console.log(data);
+// })
+
+for(const data of namm){
+    console.log(data);
+}
+
+for(const data in namm){
+    const value=namm[data]
+    console.log(value);
+}
+
+
+   
+function multiply(...args) {
+    function m(f, ...a) {
+        p *= f;
+        if (a.length) {
+            m(...a);
+        }
+        return m;
+    }
+    var p = 1;            // neutral value for multiplication
+    m.toString = _ => p;
+    return m(...args);
+}
+console.log(multiply(5)(5)(6)(8));
+console.log(multiply(2, 3, 4)(5)(6, 7));
