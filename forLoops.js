@@ -28,3 +28,29 @@ const arr3=["apple","bannana",'kiwi','grapes','goa'];
   for(const vehicle of arr4){
     console.log(vehicle.split(","));
   }
+
+
+
+
+
+
+
+  /***for IN Loops */
+
+const  arr5=["sanjay","Gudipudi",2000,21,11];
+// for In loop for arrays
+for(const data in arr5){
+     console.log(data);
+}
+// for In loop for objects
+const obj1={
+    Name:'Sanjay',
+    Surname:'Gudipudi',
+    Age:21,
+    DOB:2000,
+    Month:11,
+}
+
+for(const data in obj1){
+    console.log(data);
+}
