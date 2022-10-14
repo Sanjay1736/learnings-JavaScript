@@ -1,0 +1,11 @@
+what is Dom?
+DOM stands for Document object model
+use it as manipulate contest style and structure
+it is one of the most unique and usefull tool in java script.
+
+DOM MANIPULATION
+//GetElementById();
+//GetElementByClassName();
+//GetElementByTagName();
+//querySelector();
+//querySelectorAll();

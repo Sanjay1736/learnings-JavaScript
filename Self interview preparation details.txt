@@ -1,0 +1,30 @@
+HR -ways to  ask about yourself?
+---
+Introduce yourself
+Take us through your resume/CV
+Walk us through your resume/CV
+Summarise your life experience until now
+What’s your story? 
+Can you take us through your career story?
+
+
+
+Tips on how to answer the question:
+Start with confidence. Do not stammer or sound nervous. This will only be possible if you have prepared pointers for your answer beforehand.
+Connect your skills to the job description. Read the job description in detail before the interview and mention your skills that inline with it.
+Focus on your positive experiences and skills. Your interviewer will ask followup questions based on them. This is your chance to give direction to the interview.
+Make it a story. Dont make your answer sound mugged up. Make and pratice pointers in advance that you can talk about like a story in cronological oder during your interview.
+The answer should sound more like a conversation. It should be flowy and not sound mugged up.
+
+
+
+
+
+Hey, my name is <name>. I was born and brought up in <city>. After finishing my schooling I joined <college> to study <course>. 
+Soon I was drawn to the Software Development industry considering the immense growth in it. 
+I started upskilling myself and currently, I am comfortable with data structures and algorithms. 
+I have become a 4 star on hacker rank and love solving programming problems. 
+I have started learning web development and built a few projects in it.
+I recently worked on building an MCQ test-taking application as one of the course assignments, I used my skills in javascript and REACT to make a good front end for the project.
+I’ve always been skilled at working towards common goals with a team, during my college I worked on planning and organising various events like sports day, fests, etc.
+I believe learning never stops and I aim to only grow and upskill myself in the future.

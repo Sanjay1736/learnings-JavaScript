@@ -1,0 +1,52 @@
+What is Java Script?
+
+Ans:
+JavaScript is a Synchronous language,Scripting Language
+Just in time compilation .
+Functional language 
+only such language used in both front end and backend
+-----------------------------------------------------------------------------
+
+what are the data types in JS?
+Ans:There are 2 types of data Types
+1)permitive :pre-defined variables
+   1)Number
+   2)Symbol
+   3)Boolean
+   4)String
+   5)null
+
+   
+2)Non-Permitive:Declared by user
+	1)Arrays
+	2)Objects
+---------------------------------------------------------------------------------
+Diffrence Between Var let and const?
+
+Var is functional Scope Declaration.
+Redeclaration is allowed.
+Hosting can be done before the declaration.
+
+let is block scope element
+Reclaration is not allowed
+
+Const is block Scope Element
+Redeclaration is not allowed
+
+
+-----------------------------------------------------------------------
+Hosting in Javascript?
+Hosting Means define a variables before its declaration.
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
+What is temporal Dead Zone?
+Variables that are declared using  let &const gives you a reference error
+
