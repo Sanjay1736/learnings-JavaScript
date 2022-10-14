@@ -24,3 +24,7 @@ const arr3=["apple","bannana",'kiwi','grapes','goa'];
  for(const element of arr3){
     console.log(element);
  }
+  const arr4=['bikes','cars','jeeps','rikshaws','lorries'];
+  for(const vehicle of arr4){
+    console.log(vehicle.split(","));
+  }
