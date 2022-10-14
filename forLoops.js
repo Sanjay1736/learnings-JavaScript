@@ -42,7 +42,13 @@ const  arr5=["sanjay","Gudipudi",2000,21,11];
 for(const data in arr5){
      console.log(data);
 }
-// for In loop for objects
+
+/**if we need to access value using for In loops we use the below method */
+for(const data in arr5){
+    const value=arr5[data];
+    console.log(value)
+}
+//for In loop for objects
 const obj1={
     Name:'Sanjay',
     Surname:'Gudipudi',
@@ -54,3 +60,4 @@ const obj1={
 for(const data in obj1){
     console.log(data);
 }
+
