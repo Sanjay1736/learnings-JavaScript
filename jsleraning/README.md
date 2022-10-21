@@ -59,6 +59,20 @@ eg:-
     }
   })
 }
+sumOfThreeElements(1,2,3)
+    .then(result=>console.log(result))
+    .catch(error=>console.log(error));
+
+sumOfThreeElements(1,5,7,8)
+.then(res=>console.log(res))
+.catch(err=>console.log(err));
+
+
+diffrence between local and sectional Stroage?
+
+local Stroage: Local Stroage Dosent exipire.
+Sectional Stroage: Data Stroage data cleared when page section ends.
+
 
 
 
