@@ -1,0 +1,153 @@
+function insertItem(){
+    const shopingCart=[];
+    document.querySelector("button").addEventListener("click",()=>{
+        document.querySelector("table").innerHTML="";
+        let tr=document.createElement("tr");
+        let td1=document.createElement("td");
+        td1.innerText="S1 No";
+        let td2=document.createElement("td");
+        td2.innerText="Title";
+        let td3=document.createElement("td");
+        td3.innerText="Price";
+        tr.append(td1,td2,td3);
+        document.querySelector("table").append(tr);
+        let title=document.getElementById("item-name-input");
+        let price=document.getElementById("item-price-input");
+        if(title.value!==""&& price.value!==""){
+            let obj={
+                s1NO:shopingCart.length+1,
+                title:title.value,
+                price:price.value,
+
+            }
+            cart.push(obj);
+            title.value="";
+            price.value="";
+             cart.map((e)=>{
+                let tr=document.createElement("tr");
+                let td1=document.createElement("td");
+                td1.innerText=e.SlNo;
+                let td2=document.createElement("td");
+                td2.innerText=e.title;
+                let td3=document.createElement("td");
+                td3.innerText=e.price;
+                tr.append(td1,td2,td3);
+                document.querySelector("table").append(tr);
+             });
+             let sum=0;
+             for(let i=0;i<cart.length;i++){
+                sum+=Number(shopingCart[i].price);
+             };
+             let tr=document.createElement("tr");
+             let td1=document.createElement("td");
+             td1.innerText="Grand Total";
+             let td2=document.createElement("td");
+             td2.innerText=sum;
+             td2.setAttribute("data-ns-test","grandTotal");
+             tr.append(td1,td2);
+             document.querySelector("table").append(tr);          
+        }
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const shopingCart=[];
+    document.querySelector("button").addEventListener("click",()=>{
+        document.querySelector("table").innerHTML="";
+        let tr=document.createElement("tr");
+        let td1=document.createElement("td");
+        td1.innerText="S1 No";
+        let td2=document.createElement("td");
+        td2.innerText="Title";
+        let td3=document.createElement("td");
+        td3.innerText="Price";
+        tr.append(td1,td2,td3);
+        document.querySelector("table").append(tr);
+        let title=document.getElementById("item-name-input");
+        let price=document.getElementById("item-price-input");
+        if(title.value!==""&& price.value!==""){
+            const obj={
+                // s1NO:shopingCart.length+1,
+                title:title.value,
+                price:price.value,
+
+            }
+            shopingCart.push(obj);
+            title.value="";
+            price.value="";
+            shopingCart.forEach((e,index)=>{
+                let tr=document.createElement("tr");
+                let td1=document.createElement("td");
+                td1.innerText=index+1;
+                let td2=document.createElement("td");
+                td2.innerText=e.title;
+                let td3=document.createElement("td");
+                td3.innerText=e.price;
+                tr.append(td1,td2,td3);
+                // alert(tr);
+                document.querySelector("table").appendChild(tr);
+                // alert(e);
+             });
+             
+
+             let sum=0;
+             for(let i=0;i<shopingCart.length;i++){
+                sum+=Number(shopingCart[i].price);
+             };
+             let tr=document.createElement("tr");
+             let td1=document.createElement("td");
+             td1.innerText="Grand Total";
+             let td2=document.createElement("td");
+             td2.innerText=sum;
+             td2.setAttribute("data-ns-test","grandTotal");
+             tr.append(td1,td2);
+             document.querySelector("table").append(tr);          
+        }
+    })

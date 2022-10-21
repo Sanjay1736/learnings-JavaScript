@@ -207,9 +207,9 @@
 //  })
 
 
-// let res=fetch("https://jsonplaceholder.typicode.com/todos")
-//          .then(res=>res.json())
-//          .then(data=>console.log(data))
+let res=fetch("https://randomuser.me/api/")
+         .then(res=>res.json())
+         .then(data=>console.log(data))
 
 
 // let a=2*3**3-1;
