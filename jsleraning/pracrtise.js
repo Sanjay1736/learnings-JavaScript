@@ -71,3 +71,8 @@ function sayHi() {
 }
 
 sayHi();
+
+
+var task = () => {
+    setTimeout
+}
