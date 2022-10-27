@@ -31,3 +31,28 @@ even(2)
   .catch((error) => {
     console.log(error);
   });
+function* numbers() {
+  yield 10;
+  yield 20;
+  yield 30;
+  return 40;
+}
+
+const a = numbers();
+
+console.log(a.next());
+console.log(a.next());
+console.log(a.next());
+console.log(a.next());
+console.log(a.next());
+
+function* nums(n) {
+  for (let i = 0; i <= n; i++) {
+    yield i;
+  }
+}
+
+const num = nums(5);
+for (let i = 0; i <= 10; i++) {
+  console.log(num.next());
+}
